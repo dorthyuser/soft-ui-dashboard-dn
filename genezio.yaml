@@ -1,0 +1,10 @@
+frontend:
+    path: .
+    publish: .
+    scripts:
+        deploy:
+            - npm install --legacy-peer-deps
+    subdomain: pink-victorian-coyote
+name: soft-ui-dashboard
+region: us-east-1
+yamlVersion: 2
